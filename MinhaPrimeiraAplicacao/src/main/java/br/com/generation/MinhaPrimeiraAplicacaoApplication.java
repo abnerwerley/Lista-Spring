@@ -8,14 +8,16 @@ import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
 @RestController
-@RequestMapping("MinhaSegundaAplicacao")
-public class MinhaSegundaAplicacaoApplication {
+@RequestMapping("MinhaPrimeiraAplicacao")
+public class MinhaPrimeiraAplicacaoApplication {
 
 	@GetMapping
 	public static void main(String[] args) {
-		SpringApplication.run(MinhaSegundaAplicacaoApplication.class, args);
-		System.out.println("Objetivos de aprendizagem:"
-				+ "\n Ter atenÃ§Ã£o aos detalhes, me familiarizar com o spring e com o banco de dados, e resolver os ecercÃ­cios");
+		SpringApplication.run(MinhaPrimeiraAplicacaoApplication.class, args);
+		System.out.println("Atenção aos Detalhes!");
+		System.out.println("Responsabilidade Pessoal");
+		System.out.println("Persistência!");
+		System.out.println("Muita Persistência!!!");
 
 	}
 
